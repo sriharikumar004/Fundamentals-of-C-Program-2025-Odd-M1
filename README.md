@@ -29,7 +29,7 @@ To build a C program that prints integer, float,character, and string literals o
 
     #include <stdio.h>
     
-int main() {
+    int main() {
 
     int i;
     
