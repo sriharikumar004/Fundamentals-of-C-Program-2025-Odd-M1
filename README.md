@@ -21,10 +21,6 @@ To build a C program that prints integer, float,character, and string literals o
    
    3.3 Character literal (e.g., 'A') using `%c`
    
-   3.4 String literal (e.g., "Hello C") using `%s`
-   
-### Step 4: 
-   Stop
 # Program:
 
     #include <stdio.h>
@@ -83,8 +79,7 @@ Thus, the program was implemented and executed successfully, and the required ou
    
 ### Step 5:  
   Use `printf()` to display the values of `PI` and `DAYS`.     
-### Step 6:  
-  Stop
+  
 # Program:
 
      #include <stdio.h>
@@ -125,8 +120,7 @@ Thus, the program was implemented and executed successfully, and the required ou
   Inside main(), declare and initialize variables of types int, float, double, and char.
 ### Step 4: 
    Display their values using printf().
-### Step 5:    
-   Stop
+   
 # Program:
    
     #include <stdio.h>
@@ -154,6 +148,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 <img width="309" height="299" alt="Screenshot 2025-12-28 101602" src="https://github.com/user-attachments/assets/94a0b8a5-df64-4269-bdb7-b4ebcf7e9709" />
 
 # Result: 
+  thus,different data types are printed successfully.
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
@@ -178,8 +173,6 @@ Thus, the program was implemented and executed successfully, and the required ou
    #### Product (a * b)
    #### Quotient (a / b)
    #### Remainder (a % b)
-### Step 6: 
-  Perform bitwise operations on a and b:
   #### AND (a &amp; b)
   #### OR (a | b)
   #### XOR (a ^ b)
@@ -188,8 +181,7 @@ Thus, the program was implemented and executed successfully, and the required ou
   #### Bitwise NOT of a (~a) and b (~b)
 ### Step 7:   
   Display the results of all operations using printf().
-### Step 8:   
-  Stop
+
 # Program:
     
     #include <stdio.h>
@@ -244,18 +236,10 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 3: 
   Input a character ch from the user.
 ### Step 4: 
-   Check if ch is a digit ('0' to '9').
-   
-   If true → Print "Digit" → Go to Step 8.
-   
-   If false → Go to Step 5.
+   Check if ch is a digit ('0' to '9')
    
 ### Step 5:    
    Check if ch is an alphabet letter ('A' - 'Z' or 'a' – 'z').
-   
-   If true → Go to Step 6.
-   
-   If false → Go to Step 7.
    
 ### Step 6: 
    Check if ch is a vowel (a, e, i, o, u or A, E, I, O, U).
@@ -266,8 +250,7 @@ Thus, the program was implemented and executed successfully, and the required ou
    
 ### Step 7:   
    Print "Special Symbol".
-### Step 8:   
-  Stop
+   
 # Program:
     
     #include <stdio.h>
