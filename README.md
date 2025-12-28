@@ -269,7 +269,39 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+    
+    #include <stdio.h>
+    
+    int main() {
+    
+    char ch;
+    
+    printf("Enter a character:\n");
+    
+    scanf("%c", &ch);
+    
+    (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') ?
+    
+        ((ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||
+        
+          ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') ?
+          
+            printf("It is a Vowel.\n") :
+            
+            printf("It is a Consonant.\n")) :
+   
+    (ch >= '0' && ch <= '9') ?
+    
+        printf("It is a Digit.\n") :
+        
+        printf("It is a Special Symbol.\n");
+    
+    return 0;
+}
+
 # Output:
+<img width="368" height="116" alt="image" src="https://github.com/user-attachments/assets/3044eff4-18a2-4089-804a-3b4e34029e61" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
