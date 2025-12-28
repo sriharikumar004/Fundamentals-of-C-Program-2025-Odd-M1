@@ -33,7 +33,6 @@ To build a C program that prints integer, float,character, and string literals o
     
     int i;
     
-    
     float f;
     
     char ch,str[100];
@@ -51,7 +50,6 @@ To build a C program that prints integer, float,character, and string literals o
     printf("String = %s,  size = %d\n",str,sizeof(str));
     
     return 0;
-    
 }
 
 # Output:
@@ -88,7 +86,25 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+
+     #include <stdio.h>
+     
+     #define PI 3.14159
+     
+     int main() {
+     
+     const int DAYS = 7;
+     
+     printf("The value of PI (Macro Constant) = %.5f\n", PI);
+     
+     printf("The value of DAYS (Constant Variable) = %d\n", DAYS);
+    
+    return 0; 
+}
 # Output:
+
+<img width="484" height="171" alt="image" src="https://github.com/user-attachments/assets/da70bf1e-4951-4704-9aaa-4209d3144a3a" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
