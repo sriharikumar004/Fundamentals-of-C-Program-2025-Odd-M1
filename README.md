@@ -30,18 +30,25 @@ To build a C program that prints integer, float,character, and string literals o
     #include <stdio.h>
     
     int main() {
-
+    
     int i;
+    
     
     float f;
     
     char ch,str[100];
     
-    printf("Enter your literal values:");
+    printf("Enter your literal values:\n");
     
     scanf("%d %f %c %s",&i,&f,&ch,str);
     
-    printf("Integer = %d\nFloat = %.2f\nCharacter = %c\nString = %s",i,f,ch,str);
+    printf("Integer = %d,  size = %d\n",i,sizeof(i));
+    
+    printf("Float = %.2f,  size = %d\n",f,sizeof(f));
+    
+    printf("Character = %c,  size = %d\n",ch,sizeof(ch));
+    
+    printf("String = %s,  size = %d\n",str,sizeof(str));
     
     return 0;
     
@@ -49,7 +56,7 @@ To build a C program that prints integer, float,character, and string literals o
 
 # Output:
     
-<img width="383" height="273" alt="Screenshot 2025-12-28 093906" src="https://github.com/user-attachments/assets/aa7844d2-dc6b-4686-993c-8e98b0d54941" />
+<img width="388" height="286" alt="Screenshot 2025-12-28 095515" src="https://github.com/user-attachments/assets/b5fece2e-e43b-4bac-9a18-9cecbff2a73b" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
