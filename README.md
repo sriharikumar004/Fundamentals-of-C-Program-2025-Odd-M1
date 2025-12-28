@@ -191,7 +191,40 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+    
+    #include <stdio.h>
+    
+    int main() {
+    
+    int a, b;
+    
+    printf("Enter two values:a,b\n");
+    
+    scanf("%d %d",&a,&b);
+    
+    printf("Arithmetic Operations\n");
+    
+    printf("Addition  = %d\nSubtract= %d\nMultiply = %d\n",a+b,a-b,a*b);
+    
+    if (b != 0) {
+    
+        printf("Divide = %d\nRemainder = %d\n", a/b,a%b);
+   
+    } else {
+    
+        printf("Division and Remainder not possible (b = 0)\n");
+    } 
+    
+    printf("\nBitwise Operations\n");
+    
+    printf("AND = %d\nOR = %d\nXOR = %d\nLeft Shift = %d\nRight Shift = %d\nNOT (~a) = %d\nNOT (~b) = %d\n",a&b, a|b, a^b,  a <<1,a>>1,~a, ~b);
+    
+    return 0;
+}
 # Output:
+
+<img width="290" height="532" alt="Screenshot 2025-12-28 103649" src="https://github.com/user-attachments/assets/f71ef4ce-de2f-4548-8180-1b886fcab5af" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
