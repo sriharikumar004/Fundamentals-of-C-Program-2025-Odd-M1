@@ -128,7 +128,31 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+   
+    #include <stdio.h>
+    
+    int main() {
+    
+    int n;
+    
+    float f;
+    
+    double lar;
+    
+    char ch;
+    
+    printf("Enter your vales\n");
+    
+    scanf("%d %f %lf %c",&n,&f,&lar,&ch);
+    
+    printf("Integer = %d\nFloat = %.2f\nDouble = %.4lf\nCharacter = %c\n",n,f,lar,ch);
+    
+    return 0;
+}
 # Output:
+
+<img width="309" height="299" alt="Screenshot 2025-12-28 101602" src="https://github.com/user-attachments/assets/94a0b8a5-df64-4269-bdb7-b4ebcf7e9709" />
+
 # Result: 
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
